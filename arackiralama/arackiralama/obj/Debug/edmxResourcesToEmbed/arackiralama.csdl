@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="arackiralama" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="arackiralamaContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="musteriler1" EntityType="arackiralama.musteriler" />
+    <EntitySet Name="odemeler1" EntityType="arackiralama.odemeler" />
+    <EntitySet Name="arabalar1" EntityType="arackiralama.arabalar" />
+    <EntitySet Name="bayiler1" EntityType="arackiralama.bayiler" />
+    <AssociationSet Name="musterilerodemeler" Association="arackiralama.musterilerodemeler">
+      <End Role="musteriler" EntitySet="musteriler1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="arabalarodemeler" Association="arackiralama.arabalarodemeler">
+      <End Role="arabalar" EntitySet="arabalar1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="bayilerarabalar" Association="arackiralama.bayilerarabalar">
+      <End Role="bayiler" EntitySet="bayiler1" />
+      <End Role="arabalar" EntitySet="arabalar1" />
+    </AssociationSet>
+    <EntitySet Name="kullanicilar1" EntityType="arackiralama.kullanicilar" />
+  </EntityContainer>
+  <EntityType Name="musteriler">
+    <Key>
+      <PropertyRef Name="musterino" />
+    </Key>
+    <Property Name="musterino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adsoyad" Type="String" Nullable="false" />
+    <Property Name="telefon" Type="String" Nullable="false" />
+    <Property Name="tckimlikno" Type="String" Nullable="false" />
+    <Property Name="ehliyetdurumu" Type="String" Nullable="false" />
+    <Property Name="adres" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="odemeler">
+    <Key>
+      <PropertyRef Name="odemeno" />
+    </Key>
+    <Property Name="odemeno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="odemetutar" Type="Decimal" Nullable="false" />
+    <Property Name="odemetarih" Type="String" Nullable="false" />
+    <Property Name="vadefarki" Type="Decimal" Nullable="false" />
+    <Property Name="musterino" Type="Int32" Nullable="false" />
+    <Property Name="aracno" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="arabalar">
+    <Key>
+      <PropertyRef Name="aracno" />
+    </Key>
+    <Property Name="aracno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aracmarka" Type="String" Nullable="false" />
+    <Property Name="aracmodel" Type="String" Nullable="false" />
+    <Property Name="aracozellik" Type="String" Nullable="false" />
+    <Property Name="aracbakimgunu" Type="String" Nullable="false" />
+    <Property Name="arackm" Type="String" Nullable="false" />
+    <Property Name="hgs" Type="Decimal" Nullable="false" />
+    <Property Name="gunluktutar" Type="Decimal" Nullable="false" />
+    <Property Name="bayino" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bayiler">
+    <Key>
+      <PropertyRef Name="bayino" />
+    </Key>
+    <Property Name="bayino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="bayiadi" Type="String" Nullable="false" />
+    <Property Name="bayiyetkilisi" Type="String" Nullable="false" />
+    <Property Name="bayiadres" Type="String" Nullable="false" />
+    <Property Name="bayitelefon" Type="String" Nullable="false" />
+    <Property Name="bayiciro" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <Association Name="musterilerodemeler">
+    <End Type="arackiralama.musteriler" Role="musteriler" Multiplicity="1" />
+    <End Type="arackiralama.odemeler" Role="odemeler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteriler">
+        <PropertyRef Name="musterino" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="musterino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="arabalarodemeler">
+    <End Type="arackiralama.arabalar" Role="arabalar" Multiplicity="1" />
+    <End Type="arackiralama.odemeler" Role="odemeler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="arabalar">
+        <PropertyRef Name="aracno" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="aracno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="bayilerarabalar">
+    <End Type="arackiralama.bayiler" Role="bayiler" Multiplicity="1" />
+    <End Type="arackiralama.arabalar" Role="arabalar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bayiler">
+        <PropertyRef Name="bayino" />
+      </Principal>
+      <Dependent Role="arabalar">
+        <PropertyRef Name="bayino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="kullanicilar">
+    <Key>
+      <PropertyRef Name="kullanicino" />
+    </Key>
+    <Property Name="kullanicino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kullaniciadi" Type="String" Nullable="false" />
+    <Property Name="sifre" Type="String" Nullable="false" />
+    <Property Name="mail" Type="String" Nullable="false" />
+    <Property Name="telefon" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>

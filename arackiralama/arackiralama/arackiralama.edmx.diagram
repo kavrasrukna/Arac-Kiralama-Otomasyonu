@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72b3bf88edb64b588b3d806d7c8dc0db" Name="Diagram1" >
+        <EntityTypeShape EntityType="arackiralama.musteriler" Width="1.5" PointX="1.375" PointY="0.875" />
+        <EntityTypeShape EntityType="arackiralama.odemeler" Width="1.5" PointX="5" PointY="1.125" />
+        <EntityTypeShape EntityType="arackiralama.arabalar" Width="1.5" PointX="8" PointY="1" />
+        <EntityTypeShape EntityType="arackiralama.bayiler" Width="1.5" PointX="10.875" PointY="1.5" />
+        <AssociationConnector Association="arackiralama.musterilerodemeler" />
+        <AssociationConnector Association="arackiralama.arabalarodemeler" />
+        <AssociationConnector Association="arackiralama.bayilerarabalar" />
+        <EntityTypeShape EntityType="arackiralama.kullanicilar" Width="1.5" PointX="7.75" PointY="4.625" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

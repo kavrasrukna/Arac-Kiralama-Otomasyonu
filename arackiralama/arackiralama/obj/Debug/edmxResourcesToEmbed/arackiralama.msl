@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="arackiralamaStoreContainer" CdmEntityContainer="arackiralamaContainer">
+    <EntitySetMapping Name="musteriler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.musteriler)">
+        <MappingFragment StoreEntitySet="musteriler1">
+          <ScalarProperty Name="musterino" ColumnName="musterino" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="tckimlikno" ColumnName="tckimlikno" />
+          <ScalarProperty Name="ehliyetdurumu" ColumnName="ehliyetdurumu" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="odemeler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.odemeler)">
+        <MappingFragment StoreEntitySet="odemeler1">
+          <ScalarProperty Name="odemeno" ColumnName="odemeno" />
+          <ScalarProperty Name="odemetutar" ColumnName="odemetutar" />
+          <ScalarProperty Name="odemetarih" ColumnName="odemetarih" />
+          <ScalarProperty Name="vadefarki" ColumnName="vadefarki" />
+          <ScalarProperty Name="musterino" ColumnName="musterino" />
+          <ScalarProperty Name="aracno" ColumnName="aracno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="arabalar1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.arabalar)">
+        <MappingFragment StoreEntitySet="arabalar1">
+          <ScalarProperty Name="aracno" ColumnName="aracno" />
+          <ScalarProperty Name="aracmarka" ColumnName="aracmarka" />
+          <ScalarProperty Name="aracmodel" ColumnName="aracmodel" />
+          <ScalarProperty Name="aracozellik" ColumnName="aracozellik" />
+          <ScalarProperty Name="aracbakimgunu" ColumnName="aracbakimgunu" />
+          <ScalarProperty Name="arackm" ColumnName="arackm" />
+          <ScalarProperty Name="hgs" ColumnName="hgs" />
+          <ScalarProperty Name="gunluktutar" ColumnName="gunluktutar" />
+          <ScalarProperty Name="bayino" ColumnName="bayino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bayiler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.bayiler)">
+        <MappingFragment StoreEntitySet="bayiler1">
+          <ScalarProperty Name="bayino" ColumnName="bayino" />
+          <ScalarProperty Name="bayiadi" ColumnName="bayiadi" />
+          <ScalarProperty Name="bayiyetkilisi" ColumnName="bayiyetkilisi" />
+          <ScalarProperty Name="bayiadres" ColumnName="bayiadres" />
+          <ScalarProperty Name="bayitelefon" ColumnName="bayitelefon" />
+          <ScalarProperty Name="bayiciro" ColumnName="bayiciro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kullanicilar1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.kullanicilar)">
+        <MappingFragment StoreEntitySet="kullanicilar1">
+          <ScalarProperty Name="kullanicino" ColumnName="kullanicino" />
+          <ScalarProperty Name="kullaniciadi" ColumnName="kullaniciadi" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

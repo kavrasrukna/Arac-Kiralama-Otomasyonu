@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="arackiralama.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="arackiralamaStoreContainer">
+    <EntitySet Name="musteriler1" EntityType="arackiralama.Store.musteriler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="odemeler1" EntityType="arackiralama.Store.odemeler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="arabalar1" EntityType="arackiralama.Store.arabalar1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="bayiler1" EntityType="arackiralama.Store.bayiler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kullanicilar1" EntityType="arackiralama.Store.kullanicilar1" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="musterilerodemeler" Association="arackiralama.Store.musterilerodemeler">
+      <End Role="musteriler" EntitySet="musteriler1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="arabalarodemeler" Association="arackiralama.Store.arabalarodemeler">
+      <End Role="arabalar" EntitySet="arabalar1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="bayilerarabalar" Association="arackiralama.Store.bayilerarabalar">
+      <End Role="bayiler" EntitySet="bayiler1" />
+      <End Role="arabalar" EntitySet="arabalar1" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="musteriler1">
+    <Key>
+      <PropertyRef Name="musterino" />
+    </Key>
+    <Property Name="musterino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="adsoyad" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="telefon" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="tckimlikno" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ehliyetdurumu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="adres" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="odemeler1">
+    <Key>
+      <PropertyRef Name="odemeno" />
+    </Key>
+    <Property Name="odemeno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="odemetutar" Type="decimal" Nullable="false" />
+    <Property Name="odemetarih" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="vadefarki" Type="decimal" Nullable="false" />
+    <Property Name="musterino" Type="int" Nullable="false" />
+    <Property Name="aracno" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="arabalar1">
+    <Key>
+      <PropertyRef Name="aracno" />
+    </Key>
+    <Property Name="aracno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="aracmarka" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracmodel" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracozellik" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracbakimgunu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="arackm" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hgs" Type="decimal" Nullable="false" />
+    <Property Name="gunluktutar" Type="decimal" Nullable="false" />
+    <Property Name="bayino" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bayiler1">
+    <Key>
+      <PropertyRef Name="bayino" />
+    </Key>
+    <Property Name="bayino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bayiadi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiyetkilisi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiadres" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayitelefon" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiciro" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="kullanicilar1">
+    <Key>
+      <PropertyRef Name="kullanicino" />
+    </Key>
+    <Property Name="kullanicino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kullaniciadi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="sifre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="mail" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="telefon" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="musterilerodemeler">
+    <End Role="musteriler" Type="arackiralama.Store.musteriler1" Multiplicity="1" />
+    <End Role="odemeler" Type="arackiralama.Store.odemeler1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteriler">
+        <PropertyRef Name="musterino" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="musterino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="arabalarodemeler">
+    <End Role="arabalar" Type="arackiralama.Store.arabalar1" Multiplicity="1" />
+    <End Role="odemeler" Type="arackiralama.Store.odemeler1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="arabalar">
+        <PropertyRef Name="aracno" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="aracno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="bayilerarabalar">
+    <End Role="bayiler" Type="arackiralama.Store.bayiler1" Multiplicity="1" />
+    <End Role="arabalar" Type="arackiralama.Store.arabalar1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bayiler">
+        <PropertyRef Name="bayino" />
+      </Principal>
+      <Dependent Role="arabalar">
+        <PropertyRef Name="bayino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,171 @@
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.SuggestedBindingRedirects.cache
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\STUDENT1\Desktop\örneklerimiz\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.SuggestedBindingRedirects.cache
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+D:\DOSYALARIM\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.SuggestedBindingRedirects.cache
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\STUDENT1\Desktop\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HJP\Desktop\Yeni klasör\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\buna baksonn\arackiralamaproje4\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\HJP\Desktop\PROJELER sql\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.AssemblyReference.cache
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.anasayfa.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.araba.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.bayi.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.Form1.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.musteri.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.odeme.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.Properties.Resources.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.raporlar.resources
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.GenerateResource.cache
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CoreCompileInputs.cache
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.exe
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.pdb
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.exe.config
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.exe
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\arackiralama.pdb
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.dll
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.xml
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HJP\Documents\GitHub\Araç Kiralama Otomasyonu 4(Entity Framework - Model First teknolojisi ile crud ve raporlama işlemleri Stored Proceduresüz )\arackiralama\arackiralama\obj\Debug\arackiralama.csproj.CopyComplete

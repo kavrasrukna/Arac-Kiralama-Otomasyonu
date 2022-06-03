@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="arackiralama.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="arackiralamaStoreContainer">
+    <EntitySet Name="musteriler1" EntityType="arackiralama.Store.musteriler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="odemeler1" EntityType="arackiralama.Store.odemeler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="arabalar1" EntityType="arackiralama.Store.arabalar1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="bayiler1" EntityType="arackiralama.Store.bayiler1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kullanicilar1" EntityType="arackiralama.Store.kullanicilar1" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="musterilerodemeler" Association="arackiralama.Store.musterilerodemeler">
+      <End Role="musteriler" EntitySet="musteriler1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="arabalarodemeler" Association="arackiralama.Store.arabalarodemeler">
+      <End Role="arabalar" EntitySet="arabalar1" />
+      <End Role="odemeler" EntitySet="odemeler1" />
+    </AssociationSet>
+    <AssociationSet Name="bayilerarabalar" Association="arackiralama.Store.bayilerarabalar">
+      <End Role="bayiler" EntitySet="bayiler1" />
+      <End Role="arabalar" EntitySet="arabalar1" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="musteriler1">
+    <Key>
+      <PropertyRef Name="musterino" />
+    </Key>
+    <Property Name="musterino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="adsoyad" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="telefon" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="tckimlikno" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ehliyetdurumu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="adres" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="odemeler1">
+    <Key>
+      <PropertyRef Name="odemeno" />
+    </Key>
+    <Property Name="odemeno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="odemetutar" Type="decimal" Nullable="false" />
+    <Property Name="odemetarih" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="vadefarki" Type="decimal" Nullable="false" />
+    <Property Name="musterino" Type="int" Nullable="false" />
+    <Property Name="aracno" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="arabalar1">
+    <Key>
+      <PropertyRef Name="aracno" />
+    </Key>
+    <Property Name="aracno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="aracmarka" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracmodel" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracozellik" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aracbakimgunu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="arackm" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="hgs" Type="decimal" Nullable="false" />
+    <Property Name="gunluktutar" Type="decimal" Nullable="false" />
+    <Property Name="bayino" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bayiler1">
+    <Key>
+      <PropertyRef Name="bayino" />
+    </Key>
+    <Property Name="bayino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bayiadi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiyetkilisi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiadres" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayitelefon" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="bayiciro" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="kullanicilar1">
+    <Key>
+      <PropertyRef Name="kullanicino" />
+    </Key>
+    <Property Name="kullanicino" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kullaniciadi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="sifre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="mail" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="telefon" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="musterilerodemeler">
+    <End Role="musteriler" Type="arackiralama.Store.musteriler1" Multiplicity="1" />
+    <End Role="odemeler" Type="arackiralama.Store.odemeler1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteriler">
+        <PropertyRef Name="musterino" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="musterino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="arabalarodemeler">
+    <End Role="arabalar" Type="arackiralama.Store.arabalar1" Multiplicity="1" />
+    <End Role="odemeler" Type="arackiralama.Store.odemeler1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="arabalar">
+        <PropertyRef Name="aracno" />
+      </Principal>
+      <Dependent Role="odemeler">
+        <PropertyRef Name="aracno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="bayilerarabalar">
+    <End Role="bayiler" Type="arackiralama.Store.bayiler1" Multiplicity="1" />
+    <End Role="arabalar" Type="arackiralama.Store.arabalar1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bayiler">
+        <PropertyRef Name="bayino" />
+      </Principal>
+      <Dependent Role="arabalar">
+        <PropertyRef Name="bayino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="arackiralama" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="arackiralamaContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="musteriler1" EntityType="arackiralama.musteriler" />
+          <EntitySet Name="odemeler1" EntityType="arackiralama.odemeler" />
+          <EntitySet Name="arabalar1" EntityType="arackiralama.arabalar" />
+          <EntitySet Name="bayiler1" EntityType="arackiralama.bayiler" />
+          <AssociationSet Name="musterilerodemeler" Association="arackiralama.musterilerodemeler">
+            <End Role="musteriler" EntitySet="musteriler1" />
+            <End Role="odemeler" EntitySet="odemeler1" />
+          </AssociationSet>
+          <AssociationSet Name="arabalarodemeler" Association="arackiralama.arabalarodemeler">
+            <End Role="arabalar" EntitySet="arabalar1" />
+            <End Role="odemeler" EntitySet="odemeler1" />
+          </AssociationSet>
+          <AssociationSet Name="bayilerarabalar" Association="arackiralama.bayilerarabalar">
+            <End Role="bayiler" EntitySet="bayiler1" />
+            <End Role="arabalar" EntitySet="arabalar1" />
+          </AssociationSet>
+          <EntitySet Name="kullanicilar1" EntityType="arackiralama.kullanicilar" />
+        </EntityContainer>
+        <EntityType Name="musteriler">
+          <Key>
+            <PropertyRef Name="musterino" />
+          </Key>
+          <Property Name="musterino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="adsoyad" Type="String" Nullable="false" />
+          <Property Name="telefon" Type="String" Nullable="false" />
+          <Property Name="tckimlikno" Type="String" Nullable="false" />
+          <Property Name="ehliyetdurumu" Type="String" Nullable="false" />
+          <Property Name="adres" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="odemeler">
+          <Key>
+            <PropertyRef Name="odemeno" />
+          </Key>
+          <Property Name="odemeno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="odemetutar" Type="Decimal" Nullable="false" />
+          <Property Name="odemetarih" Type="String" Nullable="false" />
+          <Property Name="vadefarki" Type="Decimal" Nullable="false" />
+          <Property Name="musterino" Type="Int32" Nullable="false" />
+          <Property Name="aracno" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="arabalar">
+          <Key>
+            <PropertyRef Name="aracno" />
+          </Key>
+          <Property Name="aracno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="aracmarka" Type="String" Nullable="false" />
+          <Property Name="aracmodel" Type="String" Nullable="false" />
+          <Property Name="aracozellik" Type="String" Nullable="false" />
+          <Property Name="aracbakimgunu" Type="String" Nullable="false" />
+          <Property Name="arackm" Type="String" Nullable="false" />
+          <Property Name="hgs" Type="Decimal" Nullable="false" />
+          <Property Name="gunluktutar" Type="Decimal" Nullable="false" />
+          <Property Name="bayino" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="bayiler">
+          <Key>
+            <PropertyRef Name="bayino" />
+          </Key>
+          <Property Name="bayino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="bayiadi" Type="String" Nullable="false" />
+          <Property Name="bayiyetkilisi" Type="String" Nullable="false" />
+          <Property Name="bayiadres" Type="String" Nullable="false" />
+          <Property Name="bayitelefon" Type="String" Nullable="false" />
+          <Property Name="bayiciro" Type="Decimal" Nullable="false" />
+        </EntityType>
+        <Association Name="musterilerodemeler">
+          <End Type="arackiralama.musteriler" Role="musteriler" Multiplicity="1" />
+          <End Type="arackiralama.odemeler" Role="odemeler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="musteriler">
+              <PropertyRef Name="musterino" />
+            </Principal>
+            <Dependent Role="odemeler">
+              <PropertyRef Name="musterino" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="arabalarodemeler">
+          <End Type="arackiralama.arabalar" Role="arabalar" Multiplicity="1" />
+          <End Type="arackiralama.odemeler" Role="odemeler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="arabalar">
+              <PropertyRef Name="aracno" />
+            </Principal>
+            <Dependent Role="odemeler">
+              <PropertyRef Name="aracno" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="bayilerarabalar">
+          <End Type="arackiralama.bayiler" Role="bayiler" Multiplicity="1" />
+          <End Type="arackiralama.arabalar" Role="arabalar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="bayiler">
+              <PropertyRef Name="bayino" />
+            </Principal>
+            <Dependent Role="arabalar">
+              <PropertyRef Name="bayino" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="kullanicilar">
+          <Key>
+            <PropertyRef Name="kullanicino" />
+          </Key>
+          <Property Name="kullanicino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kullaniciadi" Type="String" Nullable="false" />
+          <Property Name="sifre" Type="String" Nullable="false" />
+          <Property Name="mail" Type="String" Nullable="false" />
+          <Property Name="telefon" Type="String" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="arackiralamaStoreContainer" CdmEntityContainer="arackiralamaContainer">
+    <EntitySetMapping Name="musteriler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.musteriler)">
+        <MappingFragment StoreEntitySet="musteriler1">
+          <ScalarProperty Name="musterino" ColumnName="musterino" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="tckimlikno" ColumnName="tckimlikno" />
+          <ScalarProperty Name="ehliyetdurumu" ColumnName="ehliyetdurumu" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="odemeler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.odemeler)">
+        <MappingFragment StoreEntitySet="odemeler1">
+          <ScalarProperty Name="odemeno" ColumnName="odemeno" />
+          <ScalarProperty Name="odemetutar" ColumnName="odemetutar" />
+          <ScalarProperty Name="odemetarih" ColumnName="odemetarih" />
+          <ScalarProperty Name="vadefarki" ColumnName="vadefarki" />
+          <ScalarProperty Name="musterino" ColumnName="musterino" />
+          <ScalarProperty Name="aracno" ColumnName="aracno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="arabalar1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.arabalar)">
+        <MappingFragment StoreEntitySet="arabalar1">
+          <ScalarProperty Name="aracno" ColumnName="aracno" />
+          <ScalarProperty Name="aracmarka" ColumnName="aracmarka" />
+          <ScalarProperty Name="aracmodel" ColumnName="aracmodel" />
+          <ScalarProperty Name="aracozellik" ColumnName="aracozellik" />
+          <ScalarProperty Name="aracbakimgunu" ColumnName="aracbakimgunu" />
+          <ScalarProperty Name="arackm" ColumnName="arackm" />
+          <ScalarProperty Name="hgs" ColumnName="hgs" />
+          <ScalarProperty Name="gunluktutar" ColumnName="gunluktutar" />
+          <ScalarProperty Name="bayino" ColumnName="bayino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bayiler1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.bayiler)">
+        <MappingFragment StoreEntitySet="bayiler1">
+          <ScalarProperty Name="bayino" ColumnName="bayino" />
+          <ScalarProperty Name="bayiadi" ColumnName="bayiadi" />
+          <ScalarProperty Name="bayiyetkilisi" ColumnName="bayiyetkilisi" />
+          <ScalarProperty Name="bayiadres" ColumnName="bayiadres" />
+          <ScalarProperty Name="bayitelefon" ColumnName="bayitelefon" />
+          <ScalarProperty Name="bayiciro" ColumnName="bayiciro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kullanicilar1">
+      <EntityTypeMapping TypeName="IsTypeOf(arackiralama.kullanicilar)">
+        <MappingFragment StoreEntitySet="kullanicilar1">
+          <ScalarProperty Name="kullanicino" ColumnName="kullanicino" />
+          <ScalarProperty Name="kullaniciadi" ColumnName="kullaniciadi" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
